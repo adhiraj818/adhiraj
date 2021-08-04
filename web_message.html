@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Project</title>
+    <link rel="stylesheet" href="web_message.css">
+    <script src="web_message.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body id="main_body">
+    <lottie-player id="banner" src="https://assets10.lottiefiles.com/temp/lf20_81lckL.json" background="transparent" speed="1" 
+    style="width:100px; height: 100px;" loop autoplay ></lottie-player>
+    <div id="menu">
+        <ul>
+            <li >Home</li>
+            <li >About</li>
+            <li >Services</li>
+            <li >Help</li>
+            <li >Contact Us</li>
+        </ul>
+    </div>
+    <div class="center">
+    <marquee behavior="alternate" direction="right" loop="true" scrollamount="10">
+    <div id="heading">Welcome to ChatBox</div>
+    </marquee>
+    </div>
+    <form action="web_message.js" method="post">
+    <div class="center">
+    <div class="box">
+        <div id="message">enter your message</div>
+            <textarea name="messageBox" id="messagebox" cols="20" rows="5"></textarea>
+        <button type="submit" id="sendButton">Send</button>
+        
+    </div>
+    </div>
+    </form>
+    <lottie-player class="center" src="https://assets9.lottiefiles.com/private_files/lf30_z6ezeuxq.json" background="transparent"
+      speed="1"  style="width: 300px; height: 300px;" loop autoplay>
+    </lottie-player>
+
+    <div class="center" id="retrieve_center" onclick='document.getElementById("heading").innerHTML = "please wait data retrieving initiated"'>
+            <button id="retrieveButton">Retrieve data</button>
+    </div>
+
+</body>
+</html>

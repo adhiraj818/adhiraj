@@ -1,0 +1,135 @@
+#main_body{
+    background:url(chat.jpg);
+    background-size: cover;
+}
+#menu{
+      background-color: black;
+      color: blanchedalmond;
+      padding: 5px 5px 5px 5px;
+      border: 2px solid white;
+      width: 45%;
+      height: auto;
+      margin: auto;
+      margin-top: -80px;
+      border-radius: 30px;
+      line-height: 0;
+
+
+}
+#menu ul{
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: auto;
+      width: auto;
+      align-items: center;
+      margin-bottom: auto;
+}
+#menu li{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px 8px 8px 8px;
+    margin:auto;
+    
+    
+}
+
+#menu li:hover{
+    text-decoration: wavy;
+    color: rgb(255, 226, 183);
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#menu li:active{
+    color: rgb(156, 156, 156);
+    
+}
+#heading{
+    display:inline-block;
+    padding :20px 20px 20px 20px ;
+    text-align:center;
+    font-size: 50px;
+    font-style: italic;
+    color:rgb(65, 78, 65);
+    margin-bottom: 100px;
+    
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.box{
+    border:3px solid white;
+    background:black;
+    border-radius: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: -webkit-fill-available;
+    align-items: center;
+    
+}
+#message{
+    margin:0 50px 0 50px;
+    color: white;
+
+}
+#messagebox{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+@media (min-width:550px) and (max-width:770px) {
+    #messagebox{
+        margin:auto;
+    }
+    #message{
+        margin:auto;
+    }
+    
+}
+#sendButton{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+@media (min-width: 450px)and (max-width: 843px){
+    #sendButton{
+        margin: auto;
+    }
+}
+#sendButton:hover{
+    background-color:rgb(17, 209, 136);
+}
+#sendButton:active{
+    background-color:gray;
+}
+lottie-player {
+	--lottie-player-seeker-track-color: #ffffff00;
+	--lottie-player-seeker-thumb-color: #ffffff00;
+  }
+#retrieve_center{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+#retrieveButton{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#retrieveButton:hover{
+    background-color:rgb(17, 209, 136);
+}
+#retrieveButton:active{
+    background-color:gray;
+}
